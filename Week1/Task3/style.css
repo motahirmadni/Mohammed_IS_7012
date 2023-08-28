@@ -1,0 +1,33 @@
+body{
+	background-color: beige;
+	font-size: 15px
+}
+
+.mainDiv{
+	width: 70%;
+	margin: auto
+}
+.headerDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.innerHeaderDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 22px;
+}
+.tableDiv{
+	margin: auto;
+}
+.imageDiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.textSize{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
