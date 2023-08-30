@@ -1,0 +1,15 @@
+﻿@page
+@model Exercise2Week2.Pages.Index1Model
+@{
+    int randomNumber = new Random().Next(1, 7);
+    int winningNumber = 5;
+    if(randomNumber == winningNumber)
+    {
+        <h6>Congratulations, you won the lottery with @winningNumber</h6>
+
+    }
+    else
+    {
+        <h6>Sorry, you have lost the lottery with @randomNumber</h6>
+    }
+}
